@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import { Button } from 'react-bootstrap';
 import './App.css';
-import { deepStrictEqual } from 'assert';
 
 /* This class is to display the checkout item list */
 class Popup extends React.Component {
