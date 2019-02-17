@@ -6,6 +6,7 @@ app.use(express.urlencoded());
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, '/public')));
 
+//Initialization of products available
 const products = [
     {id: 0, name: 'Kids Party', cost: 220, qty: 0, price: 0},
     {id: 1, name: 'Wine Tour', cost: 440, qty: 0, price: 0},
