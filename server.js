@@ -7,10 +7,10 @@ app.use(express.urlencoded());
 app.use(express.static(path.join(__dirname, '/public')));
 
 const products = [
-    {id: 0, name: 'Kids Party', cost: 220},
-    {id: 1, name: 'Wine Tour', cost: 440},
-    {id: 2, name: 'Team Building', cost:800},
-    {id: 3, name: 'Picnic', cost:110}
+    {id: 0, name: 'Kids Party', cost: 220, qty: 0, price: 0},
+    {id: 1, name: 'Wine Tour', cost: 440, qty: 0, price: 0},
+    {id: 2, name: 'Team Building', cost:800, qty: 0, price: 0},
+    {id: 3, name: 'Picnic', cost:110, qty: 0, price: 0}
 ];
 
 app.get('/app', function (req, res) {
